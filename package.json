@@ -7,5 +7,6 @@
   "devDependencies": {
   },
   "scripts": {
+    "prepublish": "make appcache"
   }
 }
