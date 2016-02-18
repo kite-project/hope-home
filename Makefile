@@ -7,8 +7,7 @@ makedeploy:
 deploy:
 	( cd _deploy && \
 	git pull && \
-	rsync -rz  --update --delete  --exclude=tmp/ --exclude=_deploy/ --exclude=.git --exclude=./ . _deploy )
-thing:
+	rsync -rz  --update --delete --exclude="tmp/" --exclude="_deploy/" --exclude=".git" --exclude="./" . _deploy && \
 	git add . --all && \
 	git commit -m "Push new release" && \
 	git push origin gh-pages )
