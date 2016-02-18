@@ -1,5 +1,6 @@
 CACHE MANIFEST
-CACHE:
+# files
+index.html
 lib/hope-app-link.js
 assets/kotaku.png
 assets/marketplace.png
