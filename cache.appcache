@@ -1,5 +1,5 @@
-CACHE
-MANIFESTCACHE:
+CACHE MANIFEST
+CACHE:
 lib/hope-app-link.js
 assets/kotaku.png
 assets/marketplace.png
@@ -8,6 +8,7 @@ assets/team-liquid.png
 assets/the-verge.png
 assets/bbc.png
 assets/nyt.png
+assets/wired.png
 assets/huff.png
 assets/ss.png
 node_modules/fxos-component/src/fxos-component.js
